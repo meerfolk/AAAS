@@ -1,0 +1,15 @@
+server:
+  port: 3010
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/aaas
+    username: aaas
+    password: aaas
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
